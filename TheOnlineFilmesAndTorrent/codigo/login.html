@@ -1,0 +1,69 @@
+
+
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script LANGUAGE="JavaScript">
+
+<!-- aqui o endereço onde seu membro serár redirecionado -->
+
+
+<!-- Begin
+function Login(){
+var done=0;
+var username=document.login.username.value;
+username=username.toLowerCase();
+var password=document.login.password.value;
+password=password.toLowerCase();
+if (username=="sofiavasvieira@gmail.com" && password=="123") { window.location="jaca.html"; done=1; }
+if (username=="Aqui o nome que será do seu 1 usuario" && password=="Aqui a senha do seu usuario 2") { window.location="aqui a pagina da web aonde seu membro será redirecionado"; done=1; }
+if (username=="aqui a pagina da web aonde seu membro será redirecionado" && password=="Aqui a senha do seu usuario 3") { window.location="aqui a pagina da web aonde seu membro será redirecionado"; done=1; }
+if (done==0) { alert("Senha ou Usuário inválido."); }
+}
+// End -->
+</SCRIPT>
+<style>
+body{
+background:#ccc; }
+#login{
+
+	width:300px;
+	height:260px;
+	margin:140px auto 0px;
+	border-radius:5px;
+	opacity:0.5;
+	background-color:#FFFFFF;
+}</style>
+<!DOCTYPE html> 
+<BODY>
+
+<center>
+
+<form name=login>
+
+<table id=login width=225 border=1 cellpadding=3 height="123">
+
+<tr>
+<td colspan=2 height="13"><center>
+  <p><font face="Arial Black">Login</font></p>
+  </center>
+  </td>
+  </tr>
+<tr>
+<td height="22">  
+  
+  <br>
+  Usuário:</td>
+  <td height="22" align="center">
+  <input type=text name=username size="20"></td></tr>
+  
+<tr>
+<td height="22">
+  
+  <br>
+  Senha</b>:</td><td align="center">
+  <input type=password name=password size="20"></td></tr>
+<tr><td colspan=2 align=center height="26"><input type=button value="Entrar" onClick="Login()"></td></tr>
+</table>
+</form>
+</center>
+</html>

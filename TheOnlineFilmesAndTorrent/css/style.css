@@ -1,0 +1,183 @@
+body {
+      margin:0;
+	  padding:0;
+	  background:#ccc;
+	  
+} ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	width:100%;
+	
+	}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+.menu{top:-19px;position:relative;width:100%; height:6%;
+
+}
+.sub-menu {
+  margin: 0;
+  padding: 0;
+  
+  background:#ccc;
+}
+.clearfix:after{
+  content: '.';
+  display: block;
+  clear: both;
+  line-height: 0;
+  font-size: 0;
+  visibility: hidden;
+  overflow: hidden;
+}
+.menu,
+.sub-menu {
+  list-style: none;
+  background:#000000;
+}
+.sub-menu {
+  background: #444;
+}
+.menu a {
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.menu li {
+  position: relative;
+}
+.menu > li {
+  float: left;
+}
+.menu > li:hover {
+  background: #444;
+}
+.menu li:hover > .sub-menu {
+  display: block;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  min-width: 150px;
+}
+
+.sub-menu li:hover {
+  background: #555;
+}
+
+.sub-menu .sub-menu {
+  top: 0;
+  left: 100%;
+}
+#btao{
+	position: relative;	
+	height:50px;
+	width:20%;
+	background-color:#f4a142;
+	border:0px;
+	left:0%;
+		top:78px;
+	}
+	
+	#botao{
+		height:50px;
+	width:20%;
+	background-color:#f4a142;
+	border:0px;
+	position: relative;
+		left:9%;
+		top:78px;
+    }
+	
+	   
+	#botao1{
+			position: relative;	
+	height:50px;
+	width:20%;
+	background-color:#f4a142;
+	border:0px;
+	left:15%;
+		top:78px;
+    }  
+   	#botao3{
+	position: relative;	
+	height:50px;
+	width:20%;
+	background-color:#f4a142;
+	border:0px;
+	left:17%;
+		top:78px;
+    }	
+	#myBtn1{
+	position: relative;	
+	height:50px;
+	width:20%;
+	background-color:#f4a142;
+	border:0px;
+	}
+	#myBtn2{
+			position: relative;	
+	height:50px;
+	width:20%;
+	background-color:#f4a142;
+	border:0px;
+		
+	}
+	#myBtn3{
+			position: relative;	
+	height:50px;
+	width:20%;
+	background-color:#f4a142;
+	border:0px;
+		
+	}	   
+		
+ 	#myBtn4{
+			position: relative;	
+	height:50px;
+	width:20%;
+	background-color:#f4a142;
+	border:0px;
+		
+	}
+ 
+.nomeFilme{
+	background-color:#FFFAFA;
+	position:relative;
+	height :37px;
+	width:150px;
+    text-align:center;
+        
+}
+
+.footer {
+    
+	background-color:#F5F5F5;
+	}
